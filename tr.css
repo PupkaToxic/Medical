@@ -1,0 +1,704 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap');
+
+* {
+  margin: 0px;
+  padding: 0px;
+  max-zoom: 90%;
+  min-zoom: 90%;
+}
+
+body {
+  background: white;
+  min-width: 1200px;
+  max-width: 1800px;
+
+
+}
+
+.header {
+  height: 40px;
+  width: 100%;
+  background: #0E77AF;
+  text-align: right;
+  line-height: 40px;
+}
+
+.mail {
+  position: relative;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  margin-right: 248px;
+}
+
+.facebook {
+  position: relative;
+  top: -30px;
+  height: 16px;
+  width: 16px;
+  margin-left: 247px;
+  background: url('img/face.png');
+  background-size: cover;
+}
+
+.nav {
+  height: 100px;
+  width: 100%;
+  background: white;
+  text-align: center;
+  line-height: 100px;
+}
+
+.navi {
+  position: relative;
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+  padding-left: 10px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.medicalimg {
+  top: 50px;
+  position: absolute;
+  height: 75px;
+  width: 75px;
+  margin-left: 246px;
+  background-size: cover;
+  background: url('img/g.png');
+}
+
+.phoneimg {
+  top: 70px;
+  position: absolute;
+  left: 1199px;
+  width: 23px;
+  height: 33px;
+  background-size: cover;
+  background: url('img/Group.png');
+}
+
+.contacttit {
+  top: 30px;
+  left: 1234px;
+  position: absolute;
+  color: #7D7D7D;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+}
+
+.contacts {
+  top: 45px;
+  left: 1234px;
+  position: absolute;
+  color: black;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+}
+
+.doctor {
+  width: 1667px;
+  height: 647px;
+  background-size: cover;
+  background: url('img/Bitmap.png');
+}
+
+.physic {
+  color: black;
+  font-size: 32px;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+}
+
+.titd {
+  color: black;
+  font-size: 84px;
+  font-weight: 700;
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+}
+
+.text {
+  position: relative;
+  left: 829px;
+  top: 151px;
+}
+
+.red {
+  left: 834px;
+  top: 596px;
+  position: absolute;
+  width: 284px;
+  height: 74px;
+  background: #B4141B;
+  text-align: center;
+  line-height: 74px;
+}
+
+.reach {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: 'Asap', sans-serif;
+  text-decoration: none;
+}
+
+.red:hover {
+  background: #540909;
+}
+
+.anytxt {
+  margin-top: 85px;
+  margin-left: 246px;
+  color: black;
+  font-weight: 700;
+  font-family: 'Asap', sans-serif;
+  font-size: 32px;
+  float: left;
+}
+
+.z {
+  margin-left: 692px;
+}
+
+.photo {
+  margin-left: 246px;
+  margin-top: 172px;
+  width: 767px;
+  height: 468px;
+  background-size: cover;
+  background: url('img/Bitmap.jpg');
+}
+
+.greybl {
+  position: relative;
+  height: 240px;
+  width: 350px;
+  background: #F8F8F8;
+  left: 1067px;
+  top: -470px;
+}
+
+.dar {
+  background: #F3F3F3;
+}
+
+.ti {
+  position: relative;
+  margin-left: 37px;
+  color: #0E77AF;
+  font-weight: 700;
+  font-family: 'Asap', sans-serif;
+  font-size: 24px;
+  padding-top: 45px;
+
+}
+
+.txts {
+  position: relative;
+  margin-left: 37px;
+  color: black;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  font-size: 16px;
+  padding-top: 20px;
+}
+
+.more {
+  position: relative;
+  margin-left: 37px;
+  color: #7D7D7D;
+  font-weight: 700;
+  font-family: 'Asap', sans-serif;
+  font-size: 12px;
+  padding-top: 20px;
+}
+
+
+.longtxt {
+  position: relative;
+  margin-left: 247px;
+  top: -670px;
+  color: black;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  font-size: 16px;
+  padding-top: 2px;
+}
+
+.par {
+  margin-top: 70px;
+}
+
+.img {
+  width: 961px;
+  height: 641px;
+  background-size: cover;
+  background: url('img/med.png') no-repeat;
+  position: absolute;
+  top: 1868px;
+}
+
+.lgrey {
+  width: 547px;
+  height: 504px;
+  position: absolute;
+  top: 1868px;
+  left: 878px;
+  background: linear-gradient(180deg, #FCFCFC 0%, #F8F8F8 100%);
+}
+
+.bb {
+  margin-top: 50px;
+  margin-left: 50px;
+  color: black;
+  font-weight: 700;
+  font-family: 'Asap', sans-serif;
+  font-size: 32px;
+}
+
+.grtit {
+  margin-left: 50px;
+  color: #9B9B9B;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  font-size: 24px;
+  padding-top: 10px;
+}
+
+.list {
+  color: black;
+  font-weight: 400;
+  font-family: 'Asap', sans-serif;
+  font-size: 16px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.up{
+  padding-top: 38px;
+}
+
+.rbl {
+  width: 105px;
+  height: 35px;
+  background: #B4141B;
+  margin-top: 54px;
+  margin-left: 50px;
+}
+
+.btn {
+  color: white;
+  font-weight: 700;
+  font-family: 'Asap', sans-serif;
+  font-size: 12px;
+  text-align: center;
+  line-height: 35px;
+}
+
+.lor{
+  position: absolute;
+  color: black;
+  font-weight: 700;
+  font-family: 'Asap', sans-serif;
+  font-size: 32px;
+  margin-left: 246px;
+  top: 2502px;
+}
+
+.und {
+  position: absolute;
+  color: #9B9B9B;
+  font-weight: 400;
+  font-size: 24px;
+  margin-left: 246px;
+  top: 2548px;
+  font-family: 'Asap', sans-serif;
+}
+
+.bluetxt {
+  position: absolute;
+  color: #0E77AF;
+  font-weight: 700;
+  font-size: 24px;
+  margin-left: 246px;
+  top: 2643px;
+  font-family: 'Asap', sans-serif;
+}
+
+.line {
+  position: absolute;
+  top: 2696px;
+  left: 249px;
+  width: 592px;
+  height: 1px;
+  background: #979797;
+}
+
+.ser {
+  width: 161px;
+  height: 161px;
+  background-size: cover;
+  background: url('img/service.png') no-repeat;
+  position: absolute;
+  top: 2729px;
+  left: 249px;
+}
+
+.txx {
+  position: relative;
+  color: black;
+  font-weight: 400;
+  font-size: 16px;
+  left: 427px;
+  font-family: 'Asap', sans-serif;
+  margin-bottom: 5px;
+  top: 320px;
+}
+
+.rmr {
+  position: absolute;
+  color: #9B9B9B;
+  font-weight: 700;
+  font-size: 12px;
+  left: 427px;
+  top: 2848px;
+  font-family: 'Asap', sans-serif;
+}
+
+.dow {
+  top: 2931px;
+}
+
+.d {
+  top: 2984px;
+}
+
+.dw {
+  top: 3016px;
+}
+
+.sfd {
+  position: absolute;
+  top: 3073px;
+  left: 249px;
+  width: 592px;
+  height: 1px;
+  background: #979797;
+}
+
+.rgt {
+  top: 2502px;
+  left: 700px;
+}
+
+.rt {
+  top: 2548px;
+  left: 700px;
+}
+
+.newimg {
+  width: 474px;
+  height: 375px;
+  background-size: cover;
+  background: url('img/cas.png') no-repeat;
+  position: absolute;
+  top: 2623px;
+  left: 943px;
+}
+
+.rsa {
+  left: 943px;
+  top: 500px;
+}
+
+.rgd {
+  height: 35px;
+  width: 104px;
+  background: #B4141B;
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: 'Asap', sans-serif;
+  left: 943px;
+  top: 3142px;
+}
+
+.bigblue {
+  width: 1665px;
+  height: 651px;
+  background: #0E77AF;
+  position: absolute;
+  top: 3332px;
+}
+
+.boldwhite {
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  font-size: 32px;
+  font-family: 'Asap', sans-serif;
+  left: 247px;
+  top: 3482px;
+}
+
+.normwhite {
+  position: absolute;
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Asap', sans-serif;
+  left: 247px;
+  top: 3528px;
+}
+
+.dwn {
+  font-size: 60px;
+  top: 3648px;
+}
+
+.ds {
+  top: 3722px;
+}
+
+.df {
+  top: 3810px;
+}
+
+.whbl {
+  position: absolute;
+  width: 734px;
+  height: 356px;
+  background: white;
+  top: 3480px;
+  left: 683px;
+}
+
+.nw {
+  font-size: 20px;
+  top: 75px;
+  left: -160px;
+}
+
+
+.new {
+  position: relative;
+  top: 140px;
+  left: 85px;
+}
+
+.ss {
+  font-size: 16px;
+  position: absolute;
+  top: 286px;
+  left: -160px;
+}
+
+.bolder {
+  position: absolute;
+  left: 247px;
+  top: 4162px;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.light {
+  position: absolute;
+  left: 247px;
+  top: 4208px;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  color: #9B9B9B;
+}
+
+.usualgr {
+  top: 1650px;
+  position: relative;
+  left: 247px;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #595959;
+}
+
+.grtxt {
+  top: 4390px;
+  position: absolute;
+  left: 247px;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  color: #7D7D7D
+}
+
+.rht {
+  top: 4445px;
+}
+
+.hhh {
+  top: 4491px;
+}
+
+.dww {
+  top: 1843px;
+}
+
+.dddd {
+  top: 4673px;
+}
+
+.formbl {
+  height: 587px;
+  width: 474px;
+  position: absolute;
+  top: 4108px;
+  left: 943px;
+  background: #F7F7F7;
+}
+
+.va {
+  top: 54px;
+  left: 48px;
+}
+
+.input {
+  height: 53px;
+  width: 388px;
+  margin-top: 37px;
+  margin-left: 48px;
+  border: 2px solid #E2E2E2;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #4A4A4A;
+  left: 10px;
+
+}
+
+.ma {
+  margin-top: 137px;
+}
+
+.subm {
+  position: absolute;
+  height: 35px;
+  width: 104px;
+  background: #B4141B;
+  left: 329px;
+  top: 500px;
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  text-align: center;
+  line-height: 35px;
+  color: white;
+}
+
+.foot {
+  height: 553px;
+  width: 1665px;
+  background: #4A4A4A;
+  position: absolute;
+  top: 4923px;
+}
+
+.pg {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  color: white;
+  position: absolute; 
+  left: 247px;
+  top: 208px;
+}
+
+.sometxt {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  position: relative;
+  top: 281px;
+  left: 247px;
+}
+
+.ri {
+  left: 698px;
+}
+
+.rgt {
+  top: 150px;
+  left: 698px;
+}
+
+.dbrgt {
+  left: 1097px;
+}
+
+.underfoot {
+  height: 108px;
+  width: 1665px;
+  background: #363636;
+  position: absolute;
+  top: 5476px;
+}
+
+.lasttxt {
+  font-family: 'Asap';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: white;
+  line-height: 108px;
+  position: relative;
+  left: 247px;
+}
+
+.grblck {
+  width: 380px;
+  height: 196px;
+  background: #5F5F5F;
+  left: 247px;
+  position: relative;
+  top: -350px;
+}
+
+.dgrb {
+  width: 380px;
+  height: 196px;
+  background: #6C6C6C;
+  left: 625px;
+  position: relative;
+  top: -546px;
+}
+
+.lgrb {
+  width: 380px;
+  height: 196px;
+  background: #7B7B7B;
+  left: 1005px;
+  position: relative;
+  top: -742px;
+}
